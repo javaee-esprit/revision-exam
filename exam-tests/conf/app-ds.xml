@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<datasource>
+	<url>jdbc:mysql://localhost:3306/exam</url>
+    <password>root</password>
+    <user>root</user>
+</datasource>

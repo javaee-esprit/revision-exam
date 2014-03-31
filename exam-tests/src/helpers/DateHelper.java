@@ -3,11 +3,12 @@ package helpers;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.util.Date;
+import java.util.Locale;
 
 public class DateHelper {
 	
 	
-	private static DateFormat df = DateFormat.getDateTimeInstance(DateFormat.SHORT,DateFormat.MEDIUM);
+	private static DateFormat df = DateFormat.getDateTimeInstance(DateFormat.SHORT,DateFormat.MEDIUM,Locale.FRANCE);
 	
 	
 
